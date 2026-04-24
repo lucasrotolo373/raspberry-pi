@@ -12,6 +12,9 @@ El pin GPIO17 se controla abriendo /dev/gpiochip0 como archivo de dispositivo.
 - Resistencia 220R en serie
 - GND en pin físico 6
 
+## Circuito
+![Circuito](img/circuito.jpg)
+
 ## Compilar y ejecutar
 make
 ./blink
