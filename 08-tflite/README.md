@@ -2,7 +2,7 @@
 
 Inferencia de red neuronal corriendo directamente en la Raspberry Pi 3B+
 usando TensorFlow Lite. El modelo detecta huevos parasitarios en imágenes
-de microscopio — el mismo modelo del PFC pero deployado en hardware de $35.
+de microscopio.
 
 ## Qué hace
 - Carga un modelo Keras (.h5) cuantizado a TFLite
@@ -40,4 +40,4 @@ python3 -m pip install tensorflow Pillow --break-system-packages
 El mismo modelo corría en la Ultra96-V2 con DPU B1600 via Vitis AI.
 En la Pi tarda ~0.42s por imagen vs milisegundos en el DPU, pero para
 la aplicación de campo (contar huevos de una muestra McMaster) el tiempo
-es perfectamente aceptable con hardware 8x más barato.
+es perfectamente aceptable con hardware más barato.
